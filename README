@@ -1,0 +1,19 @@
+mctools v1.0
+============
+
+This archive is a collection of the tools I have written during the course
+of the Magna Carta translation. It was some of the first programming work I
+ever did for a translation so it's a bit messy in places.
+
+Prior to Magna Carta, virtually every translation need I ever had could be
+answered by a hex editor or some existing tool, it was the first time I really
+had no choice but to write my own series of tools.
+
+fpb2txt - converts fpb files to txt files (aka, dumps the script)
+txt2fpb - converts the Korean EUC text scripts I released to game compatable
+          fpb format (does not support auto-formatting, $n is treated as a
+	  line break)
+texcvrt - converts all the Magna Carta textures to graphics editable with
+          Adobe Photoshop (removes SOFTMAX headers and analyzes the file to
+	  determine what format it is in and assigns the proper extension)
+
