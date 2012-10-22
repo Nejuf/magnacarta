@@ -1,16 +1,31 @@
 #!/usr/bin/php -q
 <?php
-//
-// fpb2txt v1.2a
-// (c) 2003 Derrick Sobodash
-//
-// This dumps Magna Carta scripts
-//
-echo ("\ntxt2fpb v1.2a (c) 2003 Derrick Sobodash\n");
+/*
+
+fpb2txt
+
+This dumps Magna Carta scripts.
+
+Version:   1.2a
+Author:    Derrick Sobodash <derrick@sobodash.com>
+Copyright: (c) 2003, 2004, 2012 Derrick Sobodash
+Web site:  https://github.com/sobodash/magnacarta/
+License:   BSD License <http://opensource.org/licenses/bsd-license.php>
+
+*/
+
+echo ("fpb2txt 1.2a (cli)\nCopyright (c) 2003, 2012 Derrick Sobodash\n");
 set_time_limit(6000000);
 
-if ($argc < 3) { DisplayOptions(); die; }
-else { $path = $argv[1]; $out_path = $argv[2]; }
+
+if ($argc < 3) {
+	DisplayOptions();
+	die;
+}
+else {
+	$path = $argv[1];
+	$out_path = $argv[2];
+}
 
 // Simple routine to read in a directory listing and split it to an array
 $mydir=""; $outdir=""; $ffiles = "";
@@ -22,6 +37,7 @@ if ($handle = opendir($path)) {
 	}
 	closedir($handle);
 }
+
 $filelist = split("\n", $mydir); $out_list = split("\n", $outdir); $ffiles_list = split("\n", $ffiles);
 $i=0; unset($mydir); @mkdir($out_path);
 
@@ -35,8 +51,8 @@ for ($z=2; $z < (count($filelist)-1); $z++) {
 	
 	if ($count == 0)
 		print "Zero count, skipping file!\n";
+		
 	else {
-
 		print "Skipping pointers...\n";
 		fseek($fd, ($count * 12) + 8, SEEK_SET);
 		
@@ -49,7 +65,7 @@ for ($z=2; $z < (count($filelist)-1); $z++) {
 		print "Building output... ";
 		$output = "";
 		for ($g=0; $g < count($strings) -1; $g++)
-			$output .= str_replace("\$n", "\r\n", $strings[$g]) . "<>\r\n\r\n";
+			$output .= str_replace("\$n", "\r\n", $strings[$g]) . "<>\n\n";
 			//$output .= $ffiles_list[$z] . " - " . str_pad($g, 4, "0", STR_PAD_LEFT) ."<>\r\n\r\n";
 			
 		//die (print strlen($strings[0]));
@@ -62,7 +78,7 @@ for ($z=2; $z < (count($filelist)-1); $z++) {
 	}
 }
 	
-echo ("All done!...\n\n");
+echo ("All done!\n\n");
 	
 function DisplayOptions() {
 	echo ("Dumps Magna Carta scripts to text files\n  usage: fpb2txt [input_path] [output_path]\n\n");

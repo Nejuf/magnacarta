@@ -1,19 +1,26 @@
 #!/usr/bin/php -q
 <?php
-//
-// texcvrt v0.5 for PHP web mode
-// (c) 2003 Derrick Sobodash
-//
-// This converts all the texture files in Magna Carta to a normally
-// viewable format. There's some pretty interesting ones.
-//
-// I never really commented when I first wrote this and I'm not
-// about to start. I'm already done witht his file as all game
-// textures have already been translated and re-inserted back
-// into the game.
-//
+/*
 
-set_time_limit(6000);
+texcvrt
+
+This converts all the texture files in Magna Carta to a normally viewable
+format. There's some pretty interesting ones.
+
+I never really commented when I first wrote this and I'm not about to start.
+I'm already done witht his file as all game textures have already been
+translated and re-inserted back into the game.
+
+Version:   0.5
+Author:    Derrick Sobodash <derrick@sobodash.com>
+Copyright: (c) 2003, 2012 Derrick Sobodash
+Web site:  https://github.com/sobodash/magnacarta/
+License:   BSD License <http://opensource.org/licenses/bsd-license.php>
+
+*/
+
+echo ("txtcvrt 0.5 (cli)\nCopyright (c) 2003, 2012 Derrick Sobodash\n");
+set_time_limit(6000000);
 
 function getmicrotime(){ 
 	list($usec, $sec) = explode(" ",microtime()); 
@@ -26,16 +33,15 @@ $filelist = "";
 $badfiles = "";
 $mydir = "";
 
-if ($handle = opendir('BGR')) {
-	while (false !== ($file = readdir($handle))) { 
+if($handle = opendir('BGR')) {
+	while (false !== ($file = readdir($handle)))
 		$mydir .= "BGR/$file\n";
-	}
 	closedir($handle);
 }
 
 $filelist = split("\n", $mydir);
 
-for ($i=2; $i < (count($filelist)-1); $i++) {
+for($i=2; $i < (count($filelist)-1); $i++) {
 	$fd = fopen ($filelist[$i], "rb");
 	$fddump = fread ($fd, filesize ($filelist[$i]));
 	fclose ($fd);
