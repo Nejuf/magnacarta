@@ -1,0 +1,13 @@
+The Ruins of Earth have been purified.<>
+
+Anything bad happen?<>
+
+No... nothing major happened.<>
+
+You say that, but your face tells me otherwise...$nYou wanna talk about the minor stuff on your mind?<>
+
+No... there's no need.<>
+
+Is that right? You don't look so good.$nGet some rest tonight. Dismissed.<>
+
+Yes sir...<>

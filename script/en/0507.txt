@@ -1,0 +1,19 @@
+Rowell Forest - Near Shudelmir<>
+
+
+Young man, you seem skilled with a blade.
+Do you know the basics?  Once you enter a battle,
+there will be an area of movement within which you
+can move.  Press the Space Bar Button to attack.
+Time the Space Bar presses to perform combos.
+Watch your TP gauge in the lower right corner,
+it determines how far you can move and your ability
+to attack your enemies.<>
+
+If you want to see your skills, press CTRL
+or right click to bring up the menu.
+If you're short on TP you can use the 'D' key
+to end your turn or bring up the menu to end it.<>
+
+Keep in mind the words of this old soldier.
+So long...<>
