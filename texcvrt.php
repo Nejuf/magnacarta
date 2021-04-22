@@ -33,9 +33,9 @@ $filelist = "";
 $badfiles = "";
 $mydir = "";
 
-if($handle = opendir('BGR')) {
+if($handle = opendir('BGR/en')) {
 	while (false !== ($file = readdir($handle)))
-		$mydir .= "BGR/$file\n";
+		$mydir .= "BGR/en/$file\n";
 	closedir($handle);
 }
 
