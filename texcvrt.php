@@ -39,22 +39,25 @@ if($handle = opendir('BGR')) {
 	closedir($handle);
 }
 
-$filelist = split("\n", $mydir);
+$filelist = explode("\n", $mydir);
 
 for($i=2; $i < (count($filelist)-1); $i++) {
-	$fd = fopen ($filelist[$i], "rb");
-	$fddump = fread ($fd, filesize ($filelist[$i]));
+	$fullpath = $filelist[$i];
+	$filename = basename($fullpath);
+	$fd = fopen ($fullpath, "rb");
+
+	$fddump = fread ($fd, filesize ($fullpath));
 	fclose ($fd);
 	$bmp = substr ($fddump, 24, 2);
 	$tga = substr ($fddump, (strlen($fddump)-18), 10);
 	$tgatest = substr ($fddump, 14, 1);
 	$tgatest2 = substr ($fddump, 58, 1);
 	$tgatest3 = substr ($fddump, 42, 1);
-	
+
 	//echo ("$gif $jfif $bmp");
 	if ($bmp == "BM") {
 		$output = substr ($fddump, 24, strlen($fddump));
-		$temp = substr($filelist[$i], 23, 4);
+		$temp = $filename;
 		$outfile = "BGR-OUT/$temp.bmp";
 		$fo = fopen($outfile, "w");
 		fputs($fo, $output);
@@ -63,7 +66,7 @@ for($i=2; $i < (count($filelist)-1); $i++) {
 	}
 	elseif (($tga == "TRUEVISION") && ($tgatest == chr(02))) {
 		$output = substr ($fddump, 12, strlen($fddump));
-		$temp = substr($filelist[$i], 23, 4);
+		$temp = $filename;
 		$outfile = "BGR-OUT/$temp.tga";
 		$fo = fopen($outfile, "w");
 		fputs($fo, $output);
@@ -72,7 +75,7 @@ for($i=2; $i < (count($filelist)-1); $i++) {
 	}
 	elseif (($tga == "TRUEVISION") && ($tgatest2 == chr(02))) {
 		$output = substr ($fddump, 56, strlen($fddump));
-		$temp = substr($filelist[$i], 23, 4);
+		$temp = $filename;
 		$outfile = "BGR-OUT/$temp.tga";
 		$fo = fopen($outfile, "w");
 		fputs($fo, $output);
@@ -81,7 +84,7 @@ for($i=2; $i < (count($filelist)-1); $i++) {
 	}
 	elseif (($tga == "TRUEVISION") && ($tgatest3 == chr(02))) {
 		$output = substr ($fddump, 40, strlen($fddump));
-		$temp = substr($filelist[$i], 23, 4);
+		$temp = $filename;
 		$outfile = "BGR-OUT/$temp.tga";
 		$fo = fopen($outfile, "w");
 		fputs($fo, $output);
@@ -90,7 +93,7 @@ for($i=2; $i < (count($filelist)-1); $i++) {
 	}
 	elseif ($tga == "TRUEVISION") {
 		$output = substr ($fddump, 24, strlen($fddump));
-		$temp = substr($filelist[$i], 23, 4);
+		$temp = $filename;
 		$outfile = "BGR-OUT/$temp.tga";
 		$fo = fopen($outfile, "w");
 		fputs($fo, $output);
@@ -99,13 +102,13 @@ for($i=2; $i < (count($filelist)-1); $i++) {
 	}
 	else {
 		$output = $fddump;
-		$temp = substr($filelist[$i], 23, 4);
+		$temp = $filename;
 		$outfile = "BGR-FAIL/$temp.unk";
 		$fo = fopen($outfile, "w");
 		fputs($fo, $output);
 		fclose($fo);
 		unset ($fo, $output, $outfile, $temp);
-		$badfiles .= "$filelist[$i]\n";
+		$badfiles .= "$fullpath\n";
 	}
 	unset ($fd, $fddump, $gif, $jfif, $bmp);
 }
