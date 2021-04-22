@@ -38,7 +38,7 @@ if ($handle = opendir($path)) {
 	closedir($handle);
 }
 
-$filelist = split("\n", $mydir); $out_list = split("\n", $outdir); $ffiles_list = split("\n", $ffiles);
+$filelist = explode("\n", $mydir); $out_list = explode("\n", $outdir); $ffiles_list = explode("\n", $ffiles);
 $i=0; unset($mydir); @mkdir($out_path);
 
 for ($z=2; $z < (count($filelist)-1); $z++) {
@@ -59,7 +59,7 @@ for ($z=2; $z < (count($filelist)-1); $z++) {
 		print "Reading in file and splitting to strings... ";
 		$base = fread($fd, filesize($filelist[$z]) - (($count * 12) + 8));
 		//die (print strlen($base));
-		$strings = split("LINE BREAK", str_replace(chr(0), "LINE BREAK", $base));
+		$strings = explode("LINE BREAK", str_replace(chr(0), "LINE BREAK", $base));
 		print "done!\n";
 		
 		print "Building output... ";
