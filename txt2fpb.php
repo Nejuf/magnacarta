@@ -1,5 +1,5 @@
 #!/usr/bin/php -q
-<?
+<?php
 /*
 
 txt2fpb
@@ -45,7 +45,7 @@ if ($handle = opendir($path)) {
 	closedir($handle);
 }
 
-$filelist = split("\n", $mydir); $out_list = split("\n", $outdir);
+$filelist = explode("\n", $mydir); $out_list = explode("\n", $outdir);
 $i=0; unset($mydir); @mkdir($out_path);
 
 for ($z=2; $z < (count($filelist)-1); $z++) {
@@ -55,11 +55,11 @@ for ($z=2; $z < (count($filelist)-1); $z++) {
 	$file = fread($fd, filesize($filelist[$z]));
 	fclose($fd);
 	print "Converting text to FPB string library...\n";
-	$line_array = split("\r\n\r\n", $file);
+	$line_array = explode("\r\n\r\n", $file);
 
 	// Account for files with UNIX line breaks
 	if (count($line_array) < 1)
-		$line_array = split("\n\n", $file);
+		$line_array = explode("\n\n", $file);
 	
 	unset ($file);
 	$header = pack("V*", (count($line_array)));
@@ -77,8 +77,8 @@ for ($z=2; $z < (count($filelist)-1); $z++) {
 	for ($i=0; $i < count($line_array); $i++)
 		$body .= $line_array[$i] . chr(0);
 
-	print "Writing $out_list[$z]...\n";
-	$fo = fopen($out_list[$z], "w");
+	print "Writing $out_list[$z].fpb...\n";
+	$fo = fopen("$out_list[$z].fpb", "w");
 	fputs($fo, ($header . $body));
 	fclose($fo);
 }
