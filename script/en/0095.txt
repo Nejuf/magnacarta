@@ -10,7 +10,7 @@ from Sirat. You might be good with swords but
 you certainly aren't a qualified leader.<>
 
 Commander Loclei, you're being rather harsh.
-He is the seventh squad commander.<>
+He is Squad 7 commander.<>
 
 Hmph, what squad?  A squad full of peasants?
 He's not a noble, he's just some adopted kid.<>
@@ -49,7 +49,7 @@ If you'll excuse us.<>
 
 Hmph.  Corrupt bastards.<>
 
-That's how the seventh squad is viewed.<>
+That's how Squad 7 is viewed.<>
 
 You guys are the same though.
 Crying about being demoted, that you can't go on
