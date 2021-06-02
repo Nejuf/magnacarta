@@ -12,8 +12,6 @@
 
 puts "Starting itm2txt.rb..."
 
-require 'pry'
-
 ITM_DIR = "./itm"
 ITM_TXT_DIR = "./itm_txt"
 
@@ -34,13 +32,13 @@ itm_ko_files.each do |ko_filepath|
 
   items_strings = ko_item_contents.each_slice(66).map do |item_bytes|
     # Bytes 1: Item Number (starting with 26, though 27 and 28 appear to be numbered incorrectly (x00 and x18, respectively)
-    # Bytes 2-27: Name (in original Korean, no names take up more than 5 bytes)(TODO: Test that the name can actually take up all 20+ bytes, and that it's not just that the stats start late)
-    # Bytes 28-41: Stat modifiers (unconfirmed)
+    # Bytes 2-26: Name (in original Korean, no names take up more than 5 bytes)(TODO: Test that the name can actually take up all 20+ bytes, and that it's not just that the stats start late)
+    # Bytes 27-41: Stat modifiers (unconfirmed)
     # Bytes 42-66: Stat descriptions
 
     item_num = item_bytes[0]
-    name = item_bytes[1..26].inject([]){|name_bytes,byte| break name_bytes if byte == 0; name_bytes << byte}.pack('V*').strip
-    stats_bytes = item_bytes[27..40]
+    name = item_bytes[1..25].inject([]){|name_bytes,byte| break name_bytes if byte == 0; name_bytes << byte}.pack('V*').strip
+    stats_bytes = item_bytes[26..40]
     desc = item_bytes[41..-1].inject([]){|desc_bytes,byte| break desc_bytes if byte == 0; desc_bytes << byte}.pack('V*').strip
 
     # For debug
