@@ -1,0 +1,527 @@
+#26
+Jade Ring
+Agility +10
+[3000, 1, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 2]
+
+
+#0
+Legendary Bracelet
+Health +125, Attack +120, Agility +5, 'Earth' Affinity +20
+[4000, 3, 0, 0, 25, 40, 0, 0, 5, 0, 0, 0, 1, 20, 0]
+
+
+#24
+Glass Doll
+Agility +30
+[3500, 3, 0, 0, 0, 0, 0, 0, 30, 0, 0, 0, 0, 0, 0]
+
+
+#29
+Samurai Necklace
+Attack +75
+[2500, 2, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#30
+Dragon Eyes
+HP +50, ATK +15, DEF +10, 'Lightning' Affinity +5
+[2700, 3, 0, 0, 10, 5, 5, 0, 0, 0, 0, 0, 6, 5, 0]
+
+
+#31
+Marhakatte's Gift
+HP +40, Defense +10, Agility +15, 'Darkness' Affinity +30
+[3200, 2, 0, 0, 8, 0, 5, 0, 15, 0, 0, 0, 4, 30, 0]
+
+
+#32
+Notos' Necklace
+HP +30, Attack +42, 'Fire' Affinity +30
+[4200, 2, 0, 0, 6, 14, 0, 0, 0, 0, 0, 0, 2, 30, 0]
+
+
+#33
+Shuriel's Scroll
+'Fire' Affinity +45
+[5000, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 45, 0]
+
+
+#34
+Dezrish's Scroll
+'Water' Affinity +45
+[4300, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 45, 0]
+
+
+#35
+Ruinel's Scroll
+'Lightning' Affinity +45
+[2800, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 45, 0]
+
+
+#36
+Tathmul's Scroll
+'Wind' Affinity +45
+[4400, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 45, 0]
+
+
+#37
+George's Scroll
+'Light' Affinity +45
+[4600, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 45, 0]
+
+
+#38
+Chuclar's Scroll
+'Darkness' Affinity +45
+[4800, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 45, 0]
+
+
+#39
+Barrata's Scroll
+'Earth' Affinity +45
+[5200, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 45, 0]
+
+
+#41
+Healing Ring
+Health +250
+[8000, 1, 0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+
+
+#43
+Silver Key
+Opens a treasure chest locked with a silver padlock.
+[500, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#44
+Gold Key
+Opens a treasure chest locked with a gold padlock.
+[1500, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#47
+Lamia's Scale
+HP +25, Attack +15, Defense +25, Intellect +10, Agility +5
+[3000, 0, 7, 0, 5, 5, 10, 5, 5, 0, 0, 0, 0, 0, 0]
+
+
+#48
+Valkyrie Tights
+HP +250, Attack +90, Defense +150, Intellect +50, Agility +10, 'Wind' Affinity +50
+[0, 0, 2, 0, 50, 30, 75, 10, 10, 0, 0, 0, 3, 50, 0]
+
+
+#49
+Clay Cross
+Defense +130
+[0, 0, 5, 0, 0, 0, 65, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#50
+Dragon Tattoo
+Attack +30, Defense +50
+[0, 0, 3, 0, 0, 10, 25, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#51
+Leather Belt
+Defense +20
+[0, 0, 4, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#52
+Gloves of Destruction
+Attack +30, Defense +30
+[0, 0, 7, 0, 0, 10, 15, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#53
+Kokeshi Doll
+Attack +45
+[0, 3, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#54
+Barbie Doll
+HP +50, Attack +60
+[0, 3, 0, 0, 10, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#55
+Skeleton Doll
+Intellect +30
+[0, 3, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0]
+
+
+#56
+Angel Doll
+HP +200, Defense +50, Intellect +10, 'Fire' Affinity +20
+[0, 3, 0, 0, 40, 0, 25, 5, 0, 0, 0, 0, 2, 20, 0]
+
+
+#57
+Mighty Puppet
+Intelligence +20, Agility +10
+[0, 3, 0, 0, 0, 0, 0, 10, 10, 0, 0, 0, 0, 0, 0]
+
+
+#58
+Sylph Tears
+Agility +15
+[0, 2, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0]
+
+
+#59
+Angel Necklace
+Stamina +125
+[0, 2, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#60
+Necklace of Wisdom
+Intellect +30
+[0, 2, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0]
+
+
+#61
+Mana Necklace
+Intellect +30
+[0, 2, 0, 0, 5, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0]
+
+
+#62
+Necklace of Protection
+Defense +125
+[0, 2, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#63
+Necklace of Patience
+Defense +10, Intellect +10
+[0, 2, 0, 0, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 0]
+
+
+#64
+Blessing Necklace
+Health +115
+[0, 2, 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#65
+Marhakatte's Gift 2
+HP +80, Defense +20, Agility +20, 'Darkness' Affinity +5
+[0, 2, 0, 0, 16, 0, 10, 0, 20, 0, 0, 0, 4, 5, 0]
+
+
+#66
+Earth Ring
+Intellect +30
+[0, 1, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0]
+
+
+#67
+Sol's Ring
+Defense +30
+[0, 1, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#68
+Ruby Ring of Fire
+HP +75, 'Light' Affinity +5
+[0, 1, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 7, 5, 0]
+
+
+#69
+Fallen Angel's Ring
+HP +50, Attack +150, Defense +20, Intellect +70, Agility +10, 'Wind' Affinity +20
+[0, 1, 0, 0, 10, 50, 10, 10, 10, 0, 0, 0, 3, 20, 0]
+
+
+#70
+Battle Ring
+Attack +60, Intellect +60, Agility +5
+[0, 1, 0, 0, 0, 20, 0, 20, 5, 0, 0, 0, 0, 0, 0]
+
+
+#71
+Archon's Wisdom
+Intellect +50, 'Darkness' Affinity +20
+[0, 1, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 4, 20, 0]
+
+
+#72
+Warrior's Ring
+Attack +75, Agility +10
+[0, 1, 0, 0, 0, 25, 0, 0, 10, 0, 0, 0, 0, 0, 0]
+
+
+#73
+Ring of Blessing
+HP +125, Defense +20
+[0, 1, 0, 0, 25, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#74
+Ring of Protection
+HP +50, Defense +50
+[0, 1, 0, 0, 10, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#75
+Gloves of Endurance
+Defense +30, Intellect +20
+[0, 0, 7, 0, 0, 0, 15, 10, 0, 0, 0, 0, 0, 0, 0]
+
+
+#76
+Minerva's Gauntlets
+Attack +50, Defense +40, Agility +5
+[0, 0, 7, 0, 0, 10, 20, 0, 5, 0, 0, 0, 0, 0, 0]
+
+
+#77
+Evasion Gauntlets
+Defense +50
+[0, 0, 7, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#78
+Imperial Gauntlets
+ATK +90, DEF +100, 'Earth' Affinity +35
+[0, 0, 7, 0, 0, 30, 50, 0, 0, 0, 0, 0, 1, 35, 0]
+
+
+#79
+Storm Tattoo
+HP +25, Attack +45, Defense +30
+[0, 0, 3, 0, 5, 15, 15, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#80
+Wind Tattoo
+Defense +30, Intelligence +10, Agility +15
+[0, 0, 3, 0, 0, 0, 15, 5, 15, 0, 0, 0, 0, 0, 0]
+
+
+#81
+Vampire Tattoo
+HP +75, Defense +40, 'Fire' Affinity +40
+[0, 0, 3, 0, 15, 0, 20, 0, 0, 0, 0, 0, 2, 40, 0]
+
+
+#82
+Mage Tattoo
+Defense +60, Intellect +10
+[0, 0, 3, 0, 0, 0, 30, 5, 0, 0, 0, 0, 0, 0, 0]
+
+
+#83
+Reflection Tattoo
+Defense +20, Intellect +60
+[0, 0, 3, 0, 0, 0, 10, 30, 0, 0, 0, 0, 0, 0, 0]
+
+
+#84
+Shade Tights
+HP +25, Attack +15, Defense +60, Agility +5
+[0, 0, 2, 0, 5, 5, 30, 0, 5, 0, 0, 0, 0, 0, 0]
+
+
+#85
+Battle Tights
+Attack +30, Defense +50
+[0, 0, 2, 0, 0, 10, 25, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#86
+Fine Tights
+Defense +40, Intelligence +10, Agility +5
+[0, 0, 2, 0, 0, 0, 20, 5, 5, 0, 0, 0, 0, 0, 0]
+
+
+#87
+Fairy Tights
+Defense +30, Intellect +20
+[0, 0, 2, 0, 0, 0, 15, 10, 0, 0, 0, 0, 0, 0, 0]
+
+
+#88
+Silk Tights
+Defense +20, Agility +15
+[0, 0, 2, 0, 0, 0, 10, 0, 15, 0, 0, 0, 0, 0, 0]
+
+
+#89
+Healing Tights
+HP +75, Defense +30, 'Darkness' Affinity +20
+[0, 0, 2, 0, 15, 0, 15, 0, 0, 0, 0, 0, 4, 20, 0]
+
+
+#90
+Silk Shirt
+Defense +20
+[0, 0, 6, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#91
+Cross Shirt
+HP +25, Attack +30, Defense +30
+[0, 0, 6, 0, 5, 10, 15, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#92
+Wisdom Shirt
+Defense +50, Intellect +20
+[0, 0, 6, 0, 0, 0, 25, 10, 0, 0, 0, 0, 0, 0, 0]
+
+
+#93
+Magic Shield Shirt
+HP +25, Defense +60, 'Water' Affinity +35
+[0, 0, 6, 0, 5, 0, 30, 0, 0, 0, 0, 0, 5, 35, 0]
+
+
+#94
+Belt of Glory
+HP +75, Defense +30
+[0, 0, 4, 0, 15, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#95
+Celestial Belt
+Defense +30, Intellect +30, 'Lightning' Affinity +30
+[0, 0, 4, 0, 0, 0, 15, 15, 0, 0, 0, 0, 6, 30, 0]
+
+
+#96
+Dragon Armor Belt
+Attack +30, Defense +60
+[0, 0, 4, 0, 0, 10, 20, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#97
+Reflection Magic Belt
+Defense +50, Intellect +20
+[0, 0, 4, 0, 0, 0, 25, 10, 0, 0, 0, 0, 0, 0, 0]
+
+
+#98
+Skill Shield Belt
+HP +25, Attack +15, Defense +20, 'Light' Affinity +40
+[0, 0, 4, 0, 5, 5, 10, 0, 0, 0, 0, 0, 7, 40, 0]
+
+
+#99
+Ignis' Leather
+Health +50, Defense +20, Agility +10
+[0, 0, 1, 0, 10, 0, 10, 0, 10, 0, 0, 0, 0, 0, 0]
+
+
+#100
+Ladder Vest
+Attack +30, Defense +20
+[0, 0, 1, 0, 0, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#101
+Salamander's Vest
+Attack +150, Defense +80, Intellect +40
+[0, 0, 1, 0, 0, 30, 40, 5, 0, 0, 0, 0, 0, 0, 0]
+
+
+#102
+Berserker's Vest
+Attack +60, Defense +40
+[0, 0, 1, 0, 0, 20, 20, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#103
+Battle Vest
+Attack +45, Defense +40, Intellect +35
+[0, 0, 1, 0, 0, 15, 20, 10, 0, 0, 0, 0, 0, 0, 0]
+
+
+#104
+Chaos Vest
+Attack +90, Defense +80, Agility +20, 'Earth' Affinity +30
+[0, 0, 1, 0, 10, 30, 40, 0, 10, 0, 0, 0, 1, 30, 0]
+
+
+#105
+Ice Plate
+Defense +100
+[0, 0, 8, 0, 0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#106
+Ladder Armor
+Defense +10
+[0, 0, 8, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#107
+Blade Armor
+Defense +30
+[0, 0, 8, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#108
+Half Plate
+Defense +40
+[0, 0, 8, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#109
+Golden Plate
+Attack +30, Defense +80
+[0, 0, 8, 0, 0, 10, 40, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#110
+Full Plate
+Defense +60, 'Fire' +20
+[0, 0, 8, 0, 0, 0, 30, 0, 0, 0, 0, 0, 2, 20, 0]
+
+
+#111
+Hardened Teeth
+Attack +30, Defense +20
+[0, 0, 5, 0, 0, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#112
+Aqua Gem
+Defense +30
+[0, 0, 5, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#113
+Lampas' Horn
+Defense +40, Intellect +20
+[0, 0, 5, 0, 0, 0, 20, 10, 0, 0, 0, 0, 0, 0, 0]
+
+
+#114
+Claw of the Abyss
+Attack +30, Defense +80
+[0, 0, 5, 0, 0, 10, 40, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#115
+Bloody Cross
+Defense +30, 'Wind' Affinity +60
+[0, 0, 5, 0, 0, 0, 15, 0, 0, 0, 0, 0, 3, 60, 0]
+
+
+#116
+Brothers DVD S.E.
+Special edition DVD (enclosed with a collection of useless Team Seongtae articles)
+[0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+#117
+Ono Ono DVDs 1 and 2
+Ono's dirty, disgraceful and nubile stadium scene is vividly reproduced with 5.1 surround sound.
+[0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
