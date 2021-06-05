@@ -50,7 +50,7 @@ sgi_ko_files.each do |ko_filepath|
 
   translation_keycode = 'en' # TODO: Translate all languages in the sgi_txt directory
   translated_filepath = "#{SGI_TXT_DIR}/#{translation_keycode}/#{txt_filename}"
-  puts "Loading #{ko_filepath}..."
+  puts "Loading #{translated_filepath}..."
   txt_file_contents = File.open(translated_filepath,"r:ISO-8859-1", &:read)
 
   items_strings = txt_file_contents.split(/^#/)[1..-1].map do |item_info|
@@ -68,7 +68,7 @@ sgi_ko_files.each do |ko_filepath|
     item_string += item_name.unpack('a*').pack("a#{25*4}").force_encoding("ISO-8859-1")
     item_string += item_stats.gsub('[','').gsub(']','').split(',').map(&:to_i).pack('V*').force_encoding("ISO-8859-1")
 
-  raise "ERROR: Resulting item ##{item_num} string is not properly sized: #{item_string.length} instead of 264 32-bit bytes." if item_string.length != 264
+  raise "ERROR: Resulting item ##{item_num} string is not properly sized: #{item_string.length} instead of 164 32-bit bytes." if item_string.length != 164
 
     item_string
   end
@@ -76,7 +76,7 @@ sgi_ko_files.each do |ko_filepath|
   raise "ERROR: Incorrect number of item translations, found #{items_strings.length} instead of 87." if items_strings.length != 87
 
 
-  header = [87,16].pack("V*").force_encoding("ISO-8759-1")
+  header = [87,16].pack("V*").force_encoding("ISO-8859-1")
   body = "".force_encoding("ISO-8859-1")
   body += items_strings.join("")
 
