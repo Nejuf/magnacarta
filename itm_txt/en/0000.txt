@@ -108,7 +108,7 @@ HP +25, Attack +15, Defense +25, Intellect +10, Agility +5
 
 #48
 Valkyrie Tights
-HP +250, Attack +90, Defense +150, Intellect +50, Agility +10, 'Wind' Affinity +50
+HP +250, Atk +90, Def +150, Int +50, Agi +10, 'Wind' Affinity +50
 [0, 0, 2, 0, 50, 30, 75, 10, 10, 0, 0, 0, 3, 50, 0]
 
 
@@ -234,7 +234,7 @@ HP +75, 'Light' Affinity +5
 
 #69
 Fallen Angel's Ring
-HP +50, Attack +150, Defense +20, Intellect +70, Agility +10, 'Wind' Affinity +20
+HP +50, Atk +150, Def +20, Int +70, Agi +10, 'Wind' Affinity +20
 [0, 1, 0, 0, 10, 50, 10, 10, 10, 0, 0, 0, 3, 20, 0]
 
 
@@ -516,12 +516,12 @@ Defense +30, 'Wind' Affinity +60
 
 #116
 Brothers DVD S.E.
-Special edition DVD (enclosed with a collection of useless Team Seongtae articles)
+Special edition DVD (with a collection of Team Seongtae articles)
 [0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 
 #117
 Ono Ono DVDs 1 and 2
-Ono's dirty, disgraceful and nubile stadium scene is vividly reproduced with 5.1 surround sound.
+Ono's dirty, nubile stadium scene with vivid 5.1 surround sound.
 [0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
